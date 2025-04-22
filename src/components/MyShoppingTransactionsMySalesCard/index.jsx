@@ -82,7 +82,7 @@ export default function MyShoppingTransactionsMySalesCard({
                 {thirteen}{" "}
               </Text>{" "}
             </div>
-            <div className="ml-3.5 h-[20px] w-px bg-gray-200_03" />{" "}
+            <div className="ml-3.5 h-[20px] w-px !bg-gray-200_03" />{" "}
             <div className="flex items-center gap-[7px]">
               {" "}
               <Img
@@ -97,7 +97,7 @@ export default function MyShoppingTransactionsMySalesCard({
             </div>{" "}
             <div className="ml-1.5 flex flex-1 items-center justify-center px-2">
               {" "}
-              <div className="h-[20px] w-px bg-gray-200_03" />{" "}
+              <div className="h-[20px] w-px !bg-gray-200_03" />{" "}
               <div className="flex flex-1 items-center gap-[7px] px-3.5">
                 {" "}
                 <Img
@@ -112,7 +112,7 @@ export default function MyShoppingTransactionsMySalesCard({
               </div>{" "}
             </div>{" "}
           </div>{" "}
-          <div className="h-px w-[76%] bg-gray-200_03" />{" "}
+          <div className="h-px w-[76%] !bg-gray-200_03" />{" "}
         </div>{" "}
         <Button
           size="md"
